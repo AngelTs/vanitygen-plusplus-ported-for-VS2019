@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcurl", "libcurl.vcxproj", "{87EE9DA4-DE1E-4448-8324-183C98DCA588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DLL-Debug|x32 = DLL-Debug|x32
+		DLL-Debug|x64 = DLL-Debug|x64
+		DLL-Release|x32 = DLL-Release|x32
+		DLL-Release|x64 = DLL-Release|x64
+		LIB-Debug|x32 = LIB-Debug|x32
+		LIB-Debug|x64 = LIB-Debug|x64
+		LIB-Release|x32 = LIB-Release|x32
+		LIB-Release|x64 = LIB-Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Debug|x32.ActiveCfg = DLL-Debug|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Debug|x32.Build.0 = DLL-Debug|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Debug|x64.ActiveCfg = DLL-Debug|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Debug|x64.Build.0 = DLL-Debug|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Release|x32.ActiveCfg = DLL-Release|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Release|x32.Build.0 = DLL-Release|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Release|x64.ActiveCfg = DLL-Release|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.DLL-Release|x64.Build.0 = DLL-Release|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Debug|x32.ActiveCfg = LIB-Debug|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Debug|x32.Build.0 = LIB-Debug|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Debug|x64.ActiveCfg = LIB-Debug|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Debug|x64.Build.0 = LIB-Debug|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Release|x32.ActiveCfg = LIB-Release|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Release|x32.Build.0 = LIB-Release|Win32
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Release|x64.ActiveCfg = LIB-Release|x64
+		{87EE9DA4-DE1E-4448-8324-183C98DCA588}.LIB-Release|x64.Build.0 = LIB-Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9D5839D-AA3E-4E05-AC6F-35DBD4346A3A}
+	EndGlobalSection
+EndGlobal

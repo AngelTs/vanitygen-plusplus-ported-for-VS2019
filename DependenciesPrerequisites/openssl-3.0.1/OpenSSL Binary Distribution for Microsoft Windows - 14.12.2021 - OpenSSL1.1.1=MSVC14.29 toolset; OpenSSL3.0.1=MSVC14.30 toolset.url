@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://kb.firedaemon.com/support/solutions/articles/4000121705
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://kb.firedaemon.com/support/solutions/articles/4000121705#1.-Download-ZIP-File-(Preferred)
+IconFile=https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/4052159844/fav_icon/02HgotVahIz51UGpa5i6Ja_1Qz_GUcWYUQ.png
+IconIndex=1

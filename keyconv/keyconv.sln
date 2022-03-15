@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyconv", "keyconv.vcxproj", "{7F33A727-AD1A-40BE-9B17-184D2D308DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Dynamic-Debug|x32 = Dynamic-Debug|x32
+		Dynamic-Debug|x64 = Dynamic-Debug|x64
+		Dynamic-Release|x32 = Dynamic-Release|x32
+		Dynamic-Release|x64 = Dynamic-Release|x64
+		Static-Debug|x32 = Static-Debug|x32
+		Static-Debug|x64 = Static-Debug|x64
+		Static-Release|x32 = Static-Release|x32
+		Static-Release|x64 = Static-Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Debug|x32.ActiveCfg = Dynamic-Debug|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Debug|x32.Build.0 = Dynamic-Debug|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Debug|x64.ActiveCfg = Dynamic-Debug|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Debug|x64.Build.0 = Dynamic-Debug|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Release|x32.ActiveCfg = Dynamic-Release|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Release|x32.Build.0 = Dynamic-Release|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Release|x64.ActiveCfg = Dynamic-Release|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Dynamic-Release|x64.Build.0 = Dynamic-Release|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Debug|x32.ActiveCfg = Static-Debug|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Debug|x32.Build.0 = Static-Debug|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Debug|x64.ActiveCfg = Static-Debug|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Debug|x64.Build.0 = Static-Debug|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Release|x32.ActiveCfg = Static-Release|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Release|x32.Build.0 = Static-Release|Win32
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Release|x64.ActiveCfg = Static-Release|x64
+		{7F33A727-AD1A-40BE-9B17-184D2D308DBA}.Static-Release|x64.Build.0 = Static-Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65C6BC4A-3F67-4DEC-ABE2-855AF3F3A8B5}
+	EndGlobalSection
+EndGlobal

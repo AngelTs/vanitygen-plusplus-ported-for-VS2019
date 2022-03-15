@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://curl.se/windows/microsoft.html
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://curl.se/windows/microsoft.html
+IconFile=https://curl.se/favicon.ico
+IconIndex=1

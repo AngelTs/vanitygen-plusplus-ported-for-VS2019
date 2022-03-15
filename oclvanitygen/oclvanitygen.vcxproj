@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Dynamic-Debug|Win32">
+      <Configuration>Dynamic-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dynamic-Debug|x64">
+      <Configuration>Dynamic-Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dynamic-Release|Win32">
+      <Configuration>Dynamic-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dynamic-Release|x64">
+      <Configuration>Dynamic-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static-Release|Win32">
+      <Configuration>Static-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static-Release|x64">
+      <Configuration>Static-Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static-Debug|Win32">
+      <Configuration>Static-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static-Debug|x64">
+      <Configuration>Static-Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C7A0B84-9A15-4022-A02E-12725180DD38}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>oclvanitygen</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)\x86\$(Configuration)\</OutDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)\x86\$(Configuration)\</OutDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+	<OutDir>$(ProjectDir)\x64\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+	<OutDir>$(ProjectDir)\x64\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)\x86\$(Configuration)\</OutDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)\x86\$(Configuration)\</OutDir>
+    <IntDir>x86\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+	<OutDir>$(ProjectDir)\x64\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+	<OutDir>$(ProjectDir)\x64\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DPTW32_STATIC_LIB /DPCRE_STATIC /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x86;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\Win32;..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\static;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\static;..\DependenciesPrerequisites\pcre-8.45\lib\x86\static;..\DependenciesPrerequisites\curl-7.26.0\lib\x86\static;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto32MT.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl32MT.lib;pthreadVC16x32MT.lib;pcreVC16x32MT.lib;libcurlVC16x32MT.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x86\$(Configuration)\$(TargetName).exe" "..\Binaries\x86\Static-Release\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x86\Static-Release\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x86\Static-Release\calc_addrs.cl"
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x86;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\Win32;..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\dynamic;..\DependenciesPrerequisites\pcre-8.45\lib\x86\dynamic;..\DependenciesPrerequisites\curl-7.26.0\lib\x86\dynamic;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto32MT.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl32MT.lib;pthreadVC16x32MD.lib;pcreVC16x32MD.lib;libcurlVC16x32MD.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x86\$(Configuration)\$(TargetName).exe" "..\Binaries\x86\Dynamic-Release\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x86\Dynamic-Release\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x86\Dynamic-Release\calc_addrs.cl"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic\libcrypto-3.dll" "..\Binaries\x86\Dynamic-Release\libcrypto-3.dll"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic\libssl-3.dll" "..\Binaries\x86\Dynamic-Release\libssl-3.dll"
+copy /Y "..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\dynamic\pthreadVC16x32MD.dll" "..\Binaries\x86\Dynamic-Release\pthreadVC16x32MD.dll"
+copy /Y "..\DependenciesPrerequisites\pcre-8.45\lib\x86\dynamic\pcreVC16x32MD.dll" "..\Binaries\x86\Dynamic-Release\pcreVC16x32MD.dll"
+copy /Y "..\DependenciesPrerequisites\curl-7.26.0\lib\x86\dynamic\libcurlVC16x32MD.dll" "..\Binaries\x86\Dynamic-Release\libcurlVC16x32MD.dll"
+exit 0
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DPTW32_STATIC_LIB /DPCRE_STATIC /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x64;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\x64;..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\static;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\static;..\DependenciesPrerequisites\pcre-8.45\lib\x64\static;..\DependenciesPrerequisites\curl-7.26.0\lib\x64\static;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto64MT.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl64MT.lib;pthreadVC16x64MT.lib;pcreVC16x64MT.lib;libcurlVC16x64MT.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x64\$(Configuration)\$(TargetName).exe" "..\Binaries\x64\Static-Release\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x64\Static-Release\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x64\Static-Release\calc_addrs.cl"
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x64;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\x64;..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\dynamic;..\DependenciesPrerequisites\pcre-8.45\lib\x64\dynamic;..\DependenciesPrerequisites\curl-7.26.0\lib\x64\dynamic;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto64MT.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl64MT.lib;pthreadVC16x64MD.lib;pcreVC16x64MD.lib;libcurlVC16x64MD.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x64\$(Configuration)\$(TargetName).exe" "..\Binaries\x64\Dynamic-Release\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x64\Dynamic-Release\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x64\Dynamic-Release\calc_addrs.cl"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic\libcrypto-3-x64.dll" "..\Binaries\x64\Dynamic-Release\libcrypto-3-x64.dll"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic\libssl-3-x64.dll" "..\Binaries\x64\Dynamic-Release\libssl-3-x64.dll"
+copy /Y "..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\dynamic\pthreadVC16x64MD.dll" "..\Binaries\x64\Dynamic-Release\pthreadVC16x64MD.dll"
+copy /Y "..\DependenciesPrerequisites\pcre-8.45\lib\x64\dynamic\pcreVC16x64MD.dll" "..\Binaries\x64\Dynamic-Release\pcreVC16x64MD.dll"
+copy /Y "..\DependenciesPrerequisites\curl-7.26.0\lib\x64\dynamic\libcurlVC16x64MD.dll" "..\Binaries\x64\Dynamic-Release\libcurlVC16x64MD.dll"
+exit 0
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DPTW32_STATIC_LIB /DPCRE_STATIC /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x86;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\Win32;..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\static;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\static;..\DependenciesPrerequisites\pcre-8.45\lib\x86\static;..\DependenciesPrerequisites\curl-7.26.0\lib\x86\static;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto32MTd.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl32MTd.lib;pthreadVC16x32MTd.lib;pcreVC16x32MTd.lib;libcurlVC16x32MTd.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x86\$(Configuration)\$(TargetName).exe" "..\Binaries\x86\Static-Debug\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x86\Static-Debug\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x86\Static-Debug\calc_addrs.cl"
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x86;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\Win32;..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\dynamic;..\DependenciesPrerequisites\pcre-8.45\lib\x86\dynamic;..\DependenciesPrerequisites\curl-7.26.0\lib\x86\dynamic;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto32MTd.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl32MTd.lib;pthreadVC16x32MDd.lib;pcreVC16x32MDd.lib;libcurlVC16x32MDd.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x86\$(Configuration)\$(TargetName).exe" "..\Binaries\x86\Dynamic-Debug\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x86\Dynamic-Debug\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x86\Dynamic-Debug\calc_addrs.cl"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic\libcrypto-3.dll" "..\Binaries\x86\Dynamic-Debug\libcrypto-3.dll"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x86\dynamic\libssl-3.dll" "..\Binaries\x86\Dynamic-Debug\libssl-3.dll"
+copy /Y "..\DependenciesPrerequisites\pthreads-2.9.1\lib\x86\dynamic\pthreadVC16x32MDd.dll" "..\Binaries\x86\Dynamic-Debug\pthreadVC16x32MDd.dll"
+copy /Y "..\DependenciesPrerequisites\pcre-8.45\lib\x86\dynamic\pcreVC16x32MDd.dll" "..\Binaries\x86\Dynamic-Debug\pcreVC16x32MDd.dll"
+copy /Y "..\DependenciesPrerequisites\curl-7.26.0\lib\x86\dynamic\libcurlVC16x32MDd.dll" "..\Binaries\x86\Dynamic-Debug\libcurlVC16x32MDd.dll"
+exit 0
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DPTW32_STATIC_LIB /DPCRE_STATIC /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x64;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\x64;..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\static;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\static;..\DependenciesPrerequisites\pcre-8.45\lib\x64\static;..\DependenciesPrerequisites\curl-7.26.0\lib\x64\static;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto64MTd.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl64MTd.lib;pthreadVC16x64MTd.lib;pcreVC16x64MTd.lib;libcurlVC16x64MTd.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x64\$(Configuration)\$(TargetName).exe" "..\Binaries\x64\Static-Debug\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x64\Static-Debug\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x64\Static-Debug\calc_addrs.cl"
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|x64'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D_WIN32 /DHAVE_STRUCT_TIMESPEC %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories);..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\include;..\DependenciesPrerequisites\openssl-3.0.1\include\x64;..\DependenciesPrerequisites\pthreads-2.9.1\include\x64x86;..\DependenciesPrerequisites\pcre-8.45\include\x64x86;..\DependenciesPrerequisites\curl-7.26.0\include\x64x86;</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\DependenciesPrerequisites\openCL-GPU-nvidia-cuda-sdk\v4.2\lib\x64;..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic;..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\dynamic;..\DependenciesPrerequisites\pcre-8.45\lib\x64\dynamic;..\DependenciesPrerequisites\curl-7.26.0\lib\x64\dynamic;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);OpenCL.lib;libcrypto64MTd.lib;Ws2_32.lib;crypt32.lib;userenv.lib;psapi.lib;iphlpapi.lib;libssl64MTd.lib;pthreadVC16x64MDd.lib;pcreVC16x64MDd.lib;libcurlVC16x64MDd.lib;legacy_stdio_definitions.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)x64\$(Configuration)\$(TargetName).exe" "..\Binaries\x64\Dynamic-Debug\$(TargetName).exe"
+copy /Y "$(ProjectDir)\base58prefix.txt" "..\Binaries\x64\Dynamic-Debug\base58prefix.txt"
+copy /Y "$(ProjectDir)\calc_addrs.cl" "..\Binaries\x64\Dynamic-Debug\calc_addrs.cl"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic\libcrypto-3-x64.dll" "..\Binaries\x64\Dynamic-Debug\libcrypto-3-x64.dll"
+copy /Y "..\DependenciesPrerequisites\openssl-3.0.1\lib\x64\dynamic\libssl-3-x64.dll" "..\Binaries\x64\Dynamic-Debug\libssl-3-x64.dll"
+copy /Y "..\DependenciesPrerequisites\pthreads-2.9.1\lib\x64\dynamic\pthreadVC16x64MDd.dll" "..\Binaries\x64\Dynamic-Debug\pthreadVC16x64MDd.dll"
+copy /Y "..\DependenciesPrerequisites\pcre-8.45\lib\x64\dynamic\pcreVC16x64MDd.dll" "..\Binaries\x64\Dynamic-Debug\pcreVC16x64MDd.dll"
+copy /Y "..\DependenciesPrerequisites\curl-7.26.0\lib\x64\dynamic\libcurlVC16x64MDd.dll" "..\Binaries\x64\Dynamic-Debug\libcurlVC16x64MDd.dll"
+exit 0
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="avl.h" />
+    <ClInclude Include="oclengine.h" />
+    <ClInclude Include="pattern.h" />
+    <ClInclude Include="sha3.h" />
+    <ClInclude Include="sph_groestl.h" />
+    <ClInclude Include="sph_types.h" />
+    <ClInclude Include="ticker.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="winglue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static-Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Dynamic-Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static-Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Dynamic-Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="groestl.c" />
+    <ClCompile Include="oclengine.c" />
+    <ClCompile Include="oclvanitygen.c" />
+    <ClCompile Include="pattern.c" />
+    <ClCompile Include="sha3.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="winglue.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="calc_addrs.cl" />
+    <None Include="base58prefix.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

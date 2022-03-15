@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://sourceforge.net/projects/pcre/files/pcre/8.45/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://sourceforge.net/projects/pcre/files/pcre/8.45/
+IconFile=https://a.fsdn.com/con/img/sandiego/logo-180x180.png
+IconIndex=1
